@@ -1,11 +1,12 @@
 # [WC Marketplace](wc-marketplace.com)
+```
+This project ( Vendor wise shipping modules ) is in active development and beta release for WCMp next version.
+For better debugging, it's also recommended you add define( 'SCRIPT_DEBUG', true ); to your wp-config.
+```
 WC Marketplace is the fastest growing multi-store marketplace plugin for WooCommerce.
 
 WCMp: Welcome, this is Riley, your WCMp virtual guide. I’m here to help you know better about WC Marketplace as plugin and as organization. In it’s core, WCMp is a WooCommerce based multi vendor solution engineered to address all your marketplace needs. Try and fall in love with WCMp, yes it’s that simple ☺
-```
-Critical update notice 2.6 (minimum requirement WooCommerce 3.0) –
-A lot has changed in the admin dashboard. Now everything you need, gets one step closer. Learn more.
-```
+
 You: [In your mind – “Ahem. Really?”] All plugin makers say that. What makes you different from others?
 Riley: I can understand your doubt, but users’ reviews are here to back our statement. If you go with the stat, more than 96% users rated us 5/5.
 

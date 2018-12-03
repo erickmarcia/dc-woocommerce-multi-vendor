@@ -1616,7 +1616,6 @@ class WCMp_Product {
         if( !isset( $query->query['s'] ) || !isset( $query->query['post_type'] ) || $query->query['post_type'] != 'product'){
                 return;
         }
-
         if(!empty($query->query['s'])){
             $posts = $wpdb->get_col( $wpdb->prepare( "SELECT post_id FROM $wpdb->postmeta WHERE meta_key='_wcmp_gtin_code' AND meta_value LIKE %s;", esc_sql( '%'.$query->query['s'].'%' ) ) );
             if ( ! $posts ) {
